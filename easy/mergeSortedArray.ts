@@ -1,5 +1,7 @@
 /**
- Do not return anything, modify nums1 in-place instead.
+ * Do not return anything, modify nums1 in-place instead.
+ * O(n) time and O(1) space
+
  */
  function merge(nums1: number[], m: number, nums2: number[], n: number): number[] {
   for (let i = 0; i < n; i++) {
